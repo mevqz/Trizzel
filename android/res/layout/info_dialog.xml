@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<!--
+    <ImageView
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close"
+        android:adjustViewBounds="true"
+        android:maxWidth="32dp"
+        android:maxHeight="32dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="right|top"/>
+-->
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_trizzel"
+            android:adjustViewBounds="true"
+            android:maxWidth="128dp"
+            android:maxHeight="128dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="44dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_author"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginLeft="14dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginLeft="14dp"
+        android:text="@string/app_version"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </View>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </View>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/app_description"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </View>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/assets_credits_header"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/music_author"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/sound_author"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="14dp"
+            android:text="Icon "/>
+        <ImageView
+            android:id="@+id/play_icon_author_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play"
+            android:adjustViewBounds="true"
+            android:maxWidth="16dp"
+            android:maxHeight="16dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"/>
+        <TextView
+            android:id="@+id/play_icon_author"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/play_icon_author"
+            android:textSize="14dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="14dp"
+            android:text="Icon "/>
+        <ImageView
+            android:id="@+id/soundon_author_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/soundon"
+            android:adjustViewBounds="true"
+            android:maxWidth="16dp"
+            android:maxHeight="16dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"/>
+
+        <TextView
+            android:id="@+id/soundon_author_txt"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/soundon_author"
+            android:textSize="14dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="14dp"
+            android:text="Icon "/>
+        <ImageView
+            android:id="@+id/soundoff_author_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/soundoff"
+            android:adjustViewBounds="true"
+            android:maxWidth="16dp"
+            android:maxHeight="16dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"/>
+        <TextView
+            android:id="@+id/soundoff_author_txt"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="14dp"
+            android:text="@string/soundoff_author"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trizzel</string>
+    <string name="app_author">Gammery</string>
+    <string name="app_version">Version: 2.0</string>
+    <string name="app_description">Trizzel is a free puzzle game. Please support the development of this and others projects by rating this app in Google Play.</string>
+
+    <string name="assets_credits_header">The following is a list of free assets used in this game.</string>
+
+    <string name="play_icon_author"><a href="http://www.flaticon.com/free-icon/play-button-arrowhead_27223">: Egor Rumyantsev</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a></string>
+    <string name="soundoff_author"><a href="http://www.flaticon.com/free-icon/music-player-pause-lines_70419">: Egor Rumyantsev</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a></string>
+    <string name="soundon_author"><a href="http://www.flaticon.com/free-icon/music-player-pause-lines_70419">: Egor Rumyantsev</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a></string>
+    <string name="music_author">Music: <a href="http://www.templateswise.com/">Templates Wise</a></string>
+    <string name="sound_author">Sound: (unknown)</string>
+
+
+
+</resources>

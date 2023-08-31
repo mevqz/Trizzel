@@ -1,0 +1,14 @@
+{
+	com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+		btnPlay: { down: btnPlay, up: btnPlay, checked: btnPause },
+		btnSound: { down: btnSoundOff, up: btnSoundOff, checked: btnSoundOn },
+		btnInfo: { down: btnInfo, up: btnInfo },
+		btnScores: { down: btnScores, up: btnScores },
+},
+	com.badlogic.gdx.scenes.scene2d.ui.Image: {
+		frameHold: { drawable: frameHold },
+		frameNext: { drawable: frameNext },
+		title_left: { drawable: title_left },
+		title_right: { drawable: title_right },
+	},
+}

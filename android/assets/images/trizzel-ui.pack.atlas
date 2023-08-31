@@ -1,0 +1,76 @@
+
+trizzel-ui.pack.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+btnInfo
+  rotate: false
+  xy: 598, 260
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+btnPause
+  rotate: false
+  xy: 598, 130
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+btnPlay
+  rotate: false
+  xy: 728, 260
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+btnScores
+  rotate: false
+  xy: 728, 130
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+btnSoundOff
+  rotate: false
+  xy: 884, 382
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+btnSoundOn
+  rotate: false
+  xy: 858, 252
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+frameHold
+  rotate: false
+  xy: 2, 60
+  size: 200, 450
+  orig: 200, 450
+  offset: 0, 0
+  index: -1
+frameNext
+  rotate: false
+  xy: 204, 60
+  size: 200, 450
+  orig: 200, 450
+  offset: 0, 0
+  index: -1
+title_left
+  rotate: false
+  xy: 406, 2
+  size: 190, 386
+  orig: 190, 386
+  offset: 0, 0
+  index: -1
+title_right
+  rotate: false
+  xy: 406, 390
+  size: 476, 120
+  orig: 476, 120
+  offset: 0, 0
+  index: -1
